@@ -1,0 +1,17 @@
+algoritmo HorasMinutosSegundos;
+// Síntese
+//  Objetivo: algoritmo que leia um número inteiro de horas e mostre o usuário o correspondente em minutos e segundos destas horas 
+//  Entrada : número inteiro de horas
+//  Saída   : correspondente em minutos e segundos destas horas
+
+
+principal
+	// Declarações
+	inteiro horas; 
+
+	// Instruções 
+	escreva ("Informe um número inteiro de horas para calcular quantos minutos e quantos segundos estão contidos nele: ");
+	leia (horas);
+	escreva (horas+" hora(s) possui(em) "+horas * 60+" minutos, ou "+horas * 60 * 60+" segundos. ");
+
+fimPrincipal

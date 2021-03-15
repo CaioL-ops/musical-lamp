@@ -1,0 +1,15 @@
+algoritmo raioArea;
+// Síntese
+//  Objetivo:  Algoritmo que calcula a área de um círculo cujo raio é fornecido pelo usuário (área= 3.14 x raio2)
+//  Entrada : raio
+//  Saída   : área do círculo
+
+
+principal
+	// Declarações
+real raio;
+	// Instruções
+escreva ("Informe o raio do círculo para calcular a área: ");
+leia (raio);
+escreva ("A área de um círculo com raio de "+raio+" é igual a "+3.14 * raio * 2+ ".");
+fimPrincipal

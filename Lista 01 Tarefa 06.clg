@@ -1,0 +1,19 @@
+algoritmo mediaAritmeticaPonderada;
+// Síntese
+//  Objetivo:  calcular a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5, (a soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10
+//  Entrada :  notas A e B
+//  Saída   :  média aritmética ponderada das notas
+
+
+principal
+	// Declarações
+real A;
+real B;
+	// Instruções
+escreva ("Digite as suas duas notas para calcular a média.");
+escreva ("Nota com peso 3.5:");
+leia (A);
+escreva ("Nota com peso 7.5:");
+leia (B);
+escreva ("Sua média é de "+(A*3.5+B*7.5/11+".");
+fimPrincipal

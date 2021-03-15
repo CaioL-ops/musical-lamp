@@ -1,0 +1,35 @@
+algoritmo funcionarioRegistroSalario
+// Síntese
+//  Objetivo:  programa que leia o nome do funcionário, o sexo (F ou M), o número de matrícula do funcionário, o número de horas trabalhadas, o valor que recebe por hora e calcule o salário desse funcionário, e que, em seguida, mostre todos os dados na tela, os dados de entrada e os de saída.
+//  Entrada :  nome do funcionário, sexo (F ou M), número de matrícula, número de horas trabalhadas e o valor que recebe por hora
+//  Saída   :  cálculo do salário do funcionário e todos os dados de entrada e de saída
+
+
+principal
+	// Declarações
+texto funcionarioNome;
+caracter funcionarioSexo;
+inteiro funcionarioMatricula;
+inteiro funcionarioHorasTrabalhadas;
+real funcionarioValorHora;
+	// Instruções
+escreva ("Informe os dados do funcionário:");
+escreva ("Nome:");
+leia (funcionarioNome);
+escreva("Sexo (F ou M):");
+leiaCaracter (funcionarioSexo);
+escreva ("Número de matrícula:");
+leia (funcionarioMatrícula);
+escreva ("Horas Trabalhadas:");
+leia (funcionarioHorasTrabalhadas);
+escreva ("Valor que recebe por hora:");
+leia (funcionarioValorHora);
+escreval ("O funcionário receberá R$"+funcionarioValorHora*funcionarioHorasTrabalhadas+".");
+escreval ("")
+escreval ("Funcionário: "+funcionarioNome);
+escreval ("Sexo: "+funcionarioSexo);
+escreval ("Matrícula: "+funcionarioMatricula);
+escreval ("Horas Trabalhadas: "+funcionarioHorasTrabalhadas);
+escreval ("Valor/hora: "+funcionarioValorHora);
+escreval ("Salário: "+funcionarioValorHora*funcionarioHorasTrabalhadas);
+fimPrincipal

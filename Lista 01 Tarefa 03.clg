@@ -1,0 +1,22 @@
+algoritmo mediaAritmetica
+// Síntese
+//  Objetivo:  algoritmo que calcula a média aritmética de 3 números quaisquer fornecidos pelo usuário
+//  Entrada : três números quaisquer
+//  Saída   : média aritmética dos três números
+
+
+principal
+	// Declarações
+real numeroPrimeiro;
+real numeroSegundo;
+real numeroTerceiro;
+	// Instruções
+escreva ("Digite três números quaisquer para calcular a média aritmética deles.");
+escreva ("Primeiro número: ");
+leia (numeroPrimeiro);
+escreva ("Segundo núemro: ");
+leia (numeroSegundo);
+escreva ("Terceiro número: ");
+leia (numeroTerceiro)
+escreva ("A média aritmética destes três números é "+(numeroPrimeiro+numeroSegundo+numeroTerceiro)/3);
+fimPrincipal
